@@ -18,7 +18,7 @@ html, body {
 
 /* Listagem do Menu */
 ul, li {
-  display: inline; -- Deixa todos os botoes na mesma linha
+  display: inline; /*-- Deixa todos os botoes na mesma linha*/
 }
 
 ul {
@@ -26,7 +26,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333; -- Define como sera o botao
+  background-color: #333;/*-- Define como sera o botao*/
 }
 
 li {
@@ -102,3 +102,80 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+.caixa1 {
+
+  color: #333;
+  background-color: #7D7869;
+  border-radius: 15px;
+  box-shadow: #fff;
+  margin-left: 20px;
+  margin-right: 5%;
+  margin-top: 4%;
+  margin-bottom: 2%; 
+  width: 97%;
+  height: 540px;
+
+}
+
+.caixa2{
+
+  color: #fff;
+  border:  #7D7869 solid 10px;
+  background-color: rgb(14, 13, 12);
+  border-radius: 15px;
+  box-shadow:  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-left: 69%;
+  margin-right: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%; 
+  width: 30%;
+  height: 520px;
+
+}
+
+input{
+  border-radius: 8px;
+  background-color: #fff;
+  color: black;
+  width: 250px;
+  height: 30px;
+  
+}
+
+  .margem_login{
+
+    margin-top: 10%;
+    margin-left: 2%
+
+  }
+
+    .titulo{
+
+      text-align: center;
+      color :aqua;
+      font-size: 4em;
+      margin-top: 3%
+
+    }
+
+    .margem_login_senha{
+
+      margin-top: 10%;
+      margin-left: 0%;
+  
+    }
+
+    a {
+
+      color :aqua;
+      
+
+    }
+
+    .cadastro{
+
+      font-size: 2em
+    }
+
+
