@@ -14,7 +14,7 @@ function calcseed() {
 
   var calcseedvalue = seed * seedcount;
 
-  seedtotal.innerHTML = `Voçê vai gastar em média R$${calcseedvalue.toFixed(2)} com a semente desejada`
+  seedtotal.innerHTML = `Você vai gastar em média R$${calcseedvalue.toFixed(2)} com a semente desejada`
 }
 
 function calcstuff() {
@@ -24,5 +24,5 @@ function calcstuff() {
 
   var calcstuffvalue = Pwh * hourpm * 30;
 
-  pwtotal.innerHTML = `Voçê gasta cerca de <strong>${calcstuffvalue}Wh</strong> por Mês (30 dias)`
+  pwtotal.innerHTML = `Você gasta cerca de <strong>${calcstuffvalue}Wh</strong> por Mês (30 dias)`
 }
