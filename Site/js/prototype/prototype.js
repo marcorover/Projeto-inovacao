@@ -24,5 +24,5 @@ function calcstuff() {
 
   var calcstuffvalue = Pwh * hourpm * 30;
 
-  pwtotal.innerHTML = `Voçê gasta cerca de <strong>R$${calcstuffvalue}Wh</strong> por Mês (30 dias)`
+  pwtotal.innerHTML = `Voçê gasta cerca de <strong>${calcstuffvalue}Wh</strong> por Mês (30 dias)`
 }
