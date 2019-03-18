@@ -22,7 +22,9 @@ function calcstuff() {
   var Pwh = pw.value;
   var hourpm = hours.value;
 
-  var calcstuffvalue = Pwh * hourpm * 30;
+  var calcstuffvalue = ((Pwh * hourpm) * 30)/1000;
 
-  pwtotal.innerHTML = `Você gasta cerca de <strong>${calcstuffvalue}Wh</strong> por Mês (30 dias)`
+  var preçoenergia = calcstuffvalue * 0.45
+
+  pwtotal.innerHTML = `Você gasta cerca de <strong>${calcstuffvalue}Wh</strong> por Mês (30 dias) <br> O custo disso sera de, em media, R$${preçoenergia} `
 }
