@@ -99,9 +99,12 @@ li.dropdown {
   margin-left: 20px; /* Margem de 20 pixels em relação a esquerda */
   margin-right: 5%; /* Margem de 5% em relação a direita */
   margin-top: 4%; /* Margem de 4% em relação ao topo */
-  margin-bottom: 2%; /* Margem de 2% em relação ao final do markdown */
+   /* Margem de 2% em relação ao final do markdown */
   width: 97%; /* Definindo comprimento = 97% do tamanho da página */
   height: 540px; /* Definindo altura com 540 pixels */
+  position: relative;
+  
+  
 
 }
 
@@ -113,10 +116,14 @@ li.dropdown {
   box-shadow:  0 6px 20px 0 rgba(0, 0, 0, 0.19); /* Definindo cor para as caixas */
   margin-left: 69%; /* Definindo margem de 69% em relação à esquerda */
   margin-right: 5%; /* Definindo margem de 5% em relação à direita */
-  margin-top: 5%; /* Definindo margem de 5% em relação ao topo */
   margin-bottom: 5%; /* Definindo margem de 5% em relação ao final da página */
   width: 30%; /* Definindo 30% comprimento */
   height: 520px; /* Definindo Altura de 520 pixels */
+  float: left;
+  position: relative;
+  float: left;
+  
+ 
 }
 
 input{
