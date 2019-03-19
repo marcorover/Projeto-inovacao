@@ -1,0 +1,98 @@
+/*
+CSS p/ prototipagem e desenvolvimento do site do projeto
+Base criada por Archie
+Última atualização: 12/03/2019
+*/
+
+/* Fonts */
+/* Includes */
+@import url('https://use.fontawesome.com/releases/v5.7.2/css/all.css');
+@import url('https://fonts.googleapis.com/css?family=Hind+Madurai|Prompt:300|Quicksand');
+/* Index.html */
+
+* {}
+
+.banner {
+  background-image: url(../img/icon.png);
+  background-repeat: no-repeat;
+  height: 200px;
+  margin-left: 10px;
+  position: relative;
+  padding: 0 20px;
+  width: 100%;
+  font-size: 4em;
+  display: inline-block;
+  text-align: center;
+  padding-top: 60px;
+  margin-bottom: -60px;
+}
+
+.active {
+  background-color: #41C0AF;
+}
+
+html, body {
+  background-color: #302C2E;
+  font-family: Quicksand;
+  color: #FFFFFF;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #09B19A;
+  position: relative;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+div .acc-dd {
+  float: right;
+  overflow: hidden;
+}
+
+.acc-dd .acc-btn {
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+}
+
+.acc-content {
+  display: none;
+  position: absolute;
+  background: #09B19A;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 2);
+  z-index: 1;
+}
+
+.acc-content .signup {
+  float: none;
+  padding: 200px 160px;
+  text-decoration: none;
+  text-align: left;
+}
+
+.signup {
+  width: 160px;
+  height: 200px;
+}
+
+.navbar a:hover, .acc-dd:hover .acc-btn {
+  background-color: #41C0AF;
+}
+
+.acc-dd:hover .acc-content {
+  display: block;
+}
