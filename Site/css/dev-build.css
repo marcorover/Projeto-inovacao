@@ -17,7 +17,7 @@ Base criada por Archie
   background-repeat: no-repeat;
   height: 200px;
   margin-left: 10px;
-  position: relative;
+  position: fixed absolute;
   padding: 0 20px;
   width: 100%;
   font-size: 4em;
@@ -40,7 +40,9 @@ html, body {
 .navbar {
   overflow: hidden;
   background-color: #09B19A;
-  position: relative;
+  position: sticky;
+  top: 0;
+  width: 100%;
 }
 
 .navbar a {
@@ -53,46 +55,6 @@ html, body {
   font-size: 20px;
 }
 
-div .acc-dd {
-  float: right;
-  overflow: hidden;
-}
-
-.acc-dd .acc-btn {
-  font-size: 20px;
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-}
-
-.acc-content {
-  display: none;
-  position: absolute;
-  background: #09B19A;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 2);
-  z-index: 1;
-}
-
-.acc-content .signup {
-  float: none;
-  padding: 200px 160px;
-  text-decoration: none;
-  text-align: left;
-}
-
-.signup {
-  width: 160px;
-  height: 200px;
-}
-
-.navbar a:hover, .acc-dd:hover .acc-btn {
+.navbar a:hover {
   background-color: #41C0AF;
-}
-
-.acc-dd:hover .acc-content {
-  display: block;
 }
